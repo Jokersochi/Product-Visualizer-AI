@@ -1,0 +1,5 @@
+{
+  "name": "Product Visualizer AI",
+  "description": "Upload a product image and visualize it on various marketing materials like coffee mugs, billboards, and t-shirts. Refine the generated images with text prompts using Gemini.",
+  "requestFramePermissions": []
+}
