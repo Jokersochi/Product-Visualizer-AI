@@ -17,23 +17,23 @@ export const MARKETING_MEDIUMS: MarketingMedium[] = [
 export const DEFAULT_IMAGES: DefaultImage[] = [
   { 
     name: 'Soda Can', 
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coca-Cola_can_2014.png/375px-Coca-Cola_can_2014.png' 
+    url: '/soda-can.png' 
   },
   { 
     name: 'Lotion Bottle', 
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nivea_Soft_200ml.jpg/450px-Nivea_Soft_200ml.jpg' 
+    url: '/lotion-bottle.png' 
   },
   { 
     name: 'Classic Sneaker', 
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Reebok_Classic_leather_shoes.jpg/640px-Reebok_Classic_leather_shoes.jpg' 
+    url: '/sneaker.png' 
   },
   {
     name: 'Wrist Watch',
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Reloj_de_pulsera_de_un_solo_bot%C3%B3n_longines_de_1925.jpg/480px-Reloj_de_pulsera_de_un_solo_bot%C3%B3n_longines_de_1925.jpg'
+    url: '/watch.png'
   },
   {
     name: 'Headphones',
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bose_QuietComfort_35_II_black_diagonal.jpg/640px-Bose_QuietComfort_35_II_black_diagonal.jpg'
+    url: '/headphones.png'
   }
 ];
 
