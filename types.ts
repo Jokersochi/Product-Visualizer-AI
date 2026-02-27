@@ -1,5 +1,15 @@
-// Fix: Define and export types used throughout the application.
-export type MarketingMedium = string;
+import type { FC } from 'react';
+
+export type PresetMarketingMedium =
+  | 'Coffee Mug'
+  | 'Billboard'
+  | 'T-Shirt'
+  | 'Shopping Bag'
+  | 'Cap'
+  | 'Poster';
+
+// Allow built-in presets and user-entered custom mediums.
+export type MarketingMedium = PresetMarketingMedium | (string & {});
 
 export interface DefaultImage {
   name: string;
@@ -38,5 +48,5 @@ export interface TextColorOption extends TextOption<TextColor> {
 }
 
 export interface TextAlignmentOption extends TextOption<TextAlignment> {
-  icon: React.FC<{ className?: string }>;
+  icon: FC<{ className?: string }>;
 }
