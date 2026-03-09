@@ -1,18 +1,26 @@
-import { MarketingMedium, DefaultImage, StylePreset, TextSize, TextColorOption, TextAlignmentOption, TextOption } from './types';
+import {
+  PresetMarketingMedium,
+  DefaultImage,
+  StylePreset,
+  TextSize,
+  TextColorOption,
+  TextAlignmentOption,
+  TextOption,
+} from './types';
 import {
   AlignTopLeftIcon, AlignTopCenterIcon, AlignTopRightIcon,
   AlignMiddleLeftIcon, AlignCenterIcon, AlignMiddleRightIcon,
   AlignBottomLeftIcon, AlignBottomCenterIcon, AlignBottomRightIcon
 } from './components/icons';
 
-export const MARKETING_MEDIUMS: MarketingMedium[] = [
+export const MARKETING_MEDIUMS = [
   'Coffee Mug',
   'Billboard',
   'T-Shirt',
   'Shopping Bag',
   'Cap',
   'Poster',
-];
+] as const satisfies readonly PresetMarketingMedium[];
 
 export const DEFAULT_IMAGES: DefaultImage[] = [
   { 
